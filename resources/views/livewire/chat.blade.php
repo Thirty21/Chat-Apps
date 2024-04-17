@@ -62,7 +62,7 @@
                 <div class="mx-10 mb-10">
                     <form action="" wire:submit.privend="sendMessage" class="flex items-center gap-4">
                         <textarea wire:model="message" class="textarea w-full textarea-border h-3" placeholder="send your massage..."></textarea>
-                        <button type="submit" class="btn btn-primary text-gray-600">Send</button>
+                        <button type="submit" class="btn btn-outline btn-info">Send</button>
                     </form>
                 </div>
             </div>
